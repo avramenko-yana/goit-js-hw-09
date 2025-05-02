@@ -1,0 +1,54 @@
+  body {
+      max-width: 1128px;
+      margin: 0 auto;
+  }
+
+  ul,
+  ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .gallery {
+
+      display: flex;
+      flex-direction: row;
+      column-gap: 24px;
+      row-gap: 24px;
+      flex-wrap: wrap;
+      justify-items: center;
+      list-style: none;
+      padding: 0;
+      margin-top: 24px;
+      margin-bottom: 24px;
+
+  }
+
+  .gallery-item {
+      overflow: hidden;
+  }
+
+
+  .gallery-link {
+      text-decoration: none;
+  }
+
+
+  .gallery-image {
+      width: 360px;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+  }
+
+
+  .sl-overlay {
+      background-color: rgba(46, 47, 66, 0.8) !important;
+  }
